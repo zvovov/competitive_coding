@@ -39,6 +39,6 @@ class Solution:
             i_search_index += 1
         return k
 
-# solution = Solution()
-# print(solution.removeDuplicates(nums=[0,0,1,2,2,3,4,5,6,6]))
+solution = Solution()
+print(solution.removeDuplicates(nums=[0,0,1,2,2,3,4,5,6,6]))
 
