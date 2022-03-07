@@ -1,5 +1,6 @@
 # https://leetcode.com/problems/maximum-subarray/
 
+from math import inf
 from typing import List
 
 # brute-force; TLE
@@ -14,21 +15,17 @@ class Solution_brute_force:
             highest_sum = max(max(curr_i_sum_array), highest_sum)
         return highest_sum
 
-# Kadane's solution
+
+# Kadane's algo
 class Solution_kadane:
     def maxSubArray(self, nums):
-            if not nums:
-                return 0
+        curr_sum, max_sum = 0, -inf
+        for i in nums:
+            curr_sum = max(i, curr_sum + i)
+            max_sum = max(curr_sum, max_sum)
+        return max_sum
 
-            curSum = maxSum = nums[0]
-            for num in nums[1:]:
-                print("\nnum: ", num)
-                curSum = max(num, curSum + num)
-                print("curSum: ", curSum)
-                maxSum = max(maxSum, curSum)
-                print("maxSum: ", maxSum)
-
-            return maxSum
+  
 
 solution = Solution_kadane()
 print(solution.maxSubArray(nums=[-2,1,-3,4,-1,2,1,-5,4]))
