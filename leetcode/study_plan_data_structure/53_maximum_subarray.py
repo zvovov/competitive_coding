@@ -15,9 +15,22 @@ class Solution_brute_force:
         return highest_sum
 
 # Kadane's solution
+class Solution_kadane:
+    def maxSubArray(self, nums):
+            if not nums:
+                return 0
 
+            curSum = maxSum = nums[0]
+            for num in nums[1:]:
+                print("\nnum: ", num)
+                curSum = max(num, curSum + num)
+                print("curSum: ", curSum)
+                maxSum = max(maxSum, curSum)
+                print("maxSum: ", maxSum)
 
-solution = Solution_brute_force()
+            return maxSum
+
+solution = Solution_kadane()
 print(solution.maxSubArray(nums=[-2,1,-3,4,-1,2,1,-5,4]))
 print(solution.maxSubArray(nums=[1]))
 print(solution.maxSubArray(nums=[5,4,-1,7,8]))
