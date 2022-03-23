@@ -15,8 +15,11 @@
 #         continue
 #     i+=1
 
+from typing import List
+
+
 class Solution:
-    def removeDuplicates(self, nums: list[int]) -> int:
+    def removeDuplicates(self, nums: List[int]) -> int:
         k = 0
         curr_largest_unique = -101
         i_search_index = 0
@@ -39,6 +42,15 @@ class Solution:
             i_search_index += 1
         return k
 
-solution = Solution()
+class Solution_optimized:
+    def removeDuplicates(self, nums=List[int]) -> int:
+        dup_counter = 0
+        for i in range(1, len(nums)):
+            if nums[i] == nums[i-1]: dup_counter += 1
+            else: nums[i-dup_counter] = nums[i]
+        return len(nums)-dup_counter
+
+
+solution = Solution_optimized()
 print(solution.removeDuplicates(nums=[0,0,1,2,2,3,4,5,6,6]))
 
