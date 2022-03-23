@@ -10,7 +10,7 @@ class Solution:
             return mat
         
         # convert mat into r*c
-        # flatten
+        # flatten # sum(mat, [])
         flat_mat = list(chain(*mat))
         
         new_mat = []
