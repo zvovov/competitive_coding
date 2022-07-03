@@ -28,11 +28,27 @@ class Solution:
          
         return -1
 
+    def pivotIndex_optimized_further(self, nums: List[int]) -> int:
+        left_sum = 0
+        right_sum = sum(nums)
+        for i in range(len(nums)):
+            # compute right_sum
+            right_sum -= nums[i]
+            
+            # check return condition
+            if left_sum == right_sum:
+                return i
+
+            # update left_sum
+            left_sum += nums[i]
+         
+        return -1
+
 solved = Solution()
 # print(solved.pivotIndex([1,7,3,6,5,6]))
 # print(solved.pivotIndex([1,2,3]))
 # print(solved.pivotIndex([2,1,-1]))
 
-print(solved.pivotIndex_optimized([1,7,3,6,5,6]))
-print(solved.pivotIndex_optimized([1,2,3]))
-print(solved.pivotIndex_optimized([2,1,-1]))
+print(solved.pivotIndex_optimized_further([1,7,3,6,5,6]))
+print(solved.pivotIndex_optimized_further([1,2,3]))
+print(solved.pivotIndex_optimized_further([2,1,-1]))
