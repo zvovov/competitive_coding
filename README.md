@@ -13,4 +13,4 @@
 ### Sliding Window
 **Easy**
 1. [Best Time to Buy And Sell Stock ](leetcode\neetcode_150\best_time_to_buy_and_sell_stock.py): bf, two pointer, kadane
-1. [Valid Parentheses](leetcode\neetcode_150\valid_parentheses.py):
+1. [Valid Parentheses](leetcode\neetcode_150\valid_parentheses.py): linear
