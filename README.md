@@ -28,3 +28,8 @@
 | # | Name | Difficulty | Comments |
 |---|---|---|---|
 | 1 | [Binary Search](leetcode\neetcode_150\binary_search.py) | E | index opt |
+
+### Linked List
+| # | Name | Difficulty | Comments |
+|---|---|---|---|
+| 1 | [Reverse Linked List](leetcode\neetcode_150\reverse_linked_list.py) | E | ll class |
