@@ -1,16 +1,30 @@
 ## Top Interview Questions - Leetcode
 
 ### Array
-**Easy**  
-1. [Two Sum](leetcode/neetcode_150/two_sum.py): bf, opt; hashmap
-1. [Contains Duplicate](leetcode/neetcode_150/contains_duplicate.py): opt; hashmap
-1. [Valid Anagram](leetcode/neetcode_150/valid_anagram.py): opt; hashmap
+
+| # | Name | Difficulty | Comments |
+|---|---|---|---|
+| 1 | [Two Sum](leetcode/neetcode_150/two_sum.py) | E | bf, opt; hashmap |
+| 2 | [Contains Duplicate](leetcode/neetcode_150/contains_duplicate.py) | E | opt; hashmap |
+| 3 | [Valid Anagram](leetcode/neetcode_150/valid_anagram.py) | E | opt; hashmap |
 
 ### Two Pointers
-**Easy**
-1. [Valid Palindrome](leetcode\neetcode_150\valid_palindrome.py)
+| # | Name | Difficulty | Comments |
+|---|---|---|---|
+| 1 | [Valid Palindrome](leetcode\neetcode_150\valid_palindrome.py) | E |  |
+
 
 ### Sliding Window
-**Easy**
-1. [Best Time to Buy And Sell Stock ](leetcode\neetcode_150\best_time_to_buy_and_sell_stock.py): bf, two pointer, kadane
-1. [Valid Parentheses](leetcode\neetcode_150\valid_parentheses.py): linear
+| # | Name | Difficulty | Comments |
+|---|---|---|---|
+| 1 | [Best Time to Buy And Sell Stock ](leetcode\neetcode_150\best_time_to_buy_and_sell_stock.py) | E | bf, two pointer, kadane |
+
+### Stack
+| # | Name | Difficulty | Comments |
+|---|---|---|---|
+| 1 | [Valid Parentheses](leetcode\neetcode_150\valid_parentheses.py) | E | linear |
+
+### Binary Search
+| # | Name | Difficulty | Comments |
+|---|---|---|---|
+| 1 | [Binary Search](https://leetcode.com/problems/binary-search/) | E | |
