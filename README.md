@@ -27,4 +27,4 @@
 ### Binary Search
 | # | Name | Difficulty | Comments |
 |---|---|---|---|
-| 1 | [Binary Search](https://leetcode.com/problems/binary-search/) | E | |
+| 1 | [Binary Search](leetcode\neetcode_150\binary_search.py) | E | index opt |
