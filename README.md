@@ -33,3 +33,9 @@
 | # | Name | Difficulty | Comments |
 |---|---|---|---|
 | 1 | [Reverse Linked List](leetcode\neetcode_150\reverse_linked_list.py) | E | ll class |
+
+### Trees
+| # | Name | Difficulty | Comments |
+|---|---|---|---|
+| 1 | [Invert Binary Tree](leetcode\neetcode_150\invert_binary_tree.py) | E |  |
+
