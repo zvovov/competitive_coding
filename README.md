@@ -17,27 +17,28 @@
 ### Sliding Window
 | # | Name | Difficulty | Comments |
 |---|---|---|---|
-| 2 | [Best Time to Buy And Sell Stock ](leetcode\neetcode_150\best_time_to_buy_and_sell_stock.py) | E | bf, two pointer, kadane |
+| 1 | [Best Time to Buy And Sell Stock ](leetcode\neetcode_150\best_time_to_buy_and_sell_stock.py) | E | bf, two pointer, kadane |
 
 ### Stack
 | # | Name | Difficulty | Comments |
 |---|---|---|---|
-| 3 | [Valid Parentheses](leetcode\neetcode_150\valid_parentheses.py) | E | linear |
+| 1 | [Valid Parentheses](leetcode\neetcode_150\valid_parentheses.py) | E | linear |
 
 ### Binary Search
 | # | Name | Difficulty | Comments |
 |---|---|---|---|
-| 4 | [Binary Search](leetcode\neetcode_150\binary_search.py) | E | index opt |
+| 1 | [Binary Search](leetcode\neetcode_150\binary_search.py) | E | index opt |
 
 ### Linked List
 | # | Name | Difficulty | Comments |
 |---|---|---|---|
-| 5 | [Reverse Linked List](leetcode\neetcode_150\reverse_linked_list.py) | E | ll class, 2 pointer |
+| 1 | [Reverse Linked List](leetcode\neetcode_150\reverse_linked_list.py) | E | ll class, 2 pointer |
 
 ### Trees
 | # | Name | Difficulty | Comments |
 |---|---|---|---|
-| 6 | [Invert Binary Tree](leetcode\neetcode_150\invert_binary_tree.py) | E | stack, recursion |
-| 7 | [Max Depth Binary Tree](leetcode\neetcode_150\max_depth_binary_tree.py) | E | recursion |
+| 1 | [Invert Binary Tree](leetcode\neetcode_150\invert_binary_tree.py) | E | stack, recursion |
+| 2 | [Max Depth Binary Tree](leetcode\neetcode_150\max_depth_binary_tree.py) | E | recursion |
+| 3 | [Diameter of Binary Tree](leetcode\neetcode_150\diameter_of_binary_tree.py) | E | recursion |
 
 
