@@ -38,7 +38,9 @@
 | # | Name | Difficulty | Comments |
 |---|---|---|---|
 | 1 | [Invert Binary Tree](leetcode/neetcode_150/invert_binary_tree.py) | E | stack, recursion |
-| 2 | [Max Depth Binary Tree](leetcode/neetcode_150/max_depth_binary_tree.py) | E | recursion |
-| 3 | [Diameter of Binary Tree](leetcode/neetcode_150/diameter_of_binary_tree.py) | E | recursion |
+| 1 | [Max Depth Binary Tree](leetcode/neetcode_150/max_depth_binary_tree.py) | E | recursion |
+| 1 | [Diameter of Binary Tree](leetcode/neetcode_150/diameter_of_binary_tree.py) | E | recursion |
+| 1 | [Balanced Binary Tree](leetcode/neetcode_150/balanced_binary_tree.py) | E | recursion, dfs |
+
 
 
