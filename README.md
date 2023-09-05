@@ -41,6 +41,7 @@
 | 1 | [Max Depth Binary Tree](leetcode/neetcode_150/max_depth_binary_tree.py) | E | recursion |
 | 1 | [Diameter of Binary Tree](leetcode/neetcode_150/diameter_of_binary_tree.py) | E | recursion |
 | 1 | [Balanced Binary Tree](leetcode/neetcode_150/balanced_binary_tree.py) | E | recursion, dfs |
+| 1 | [Same Tree](leetcode/neetcode_150/same_tree.py) | E | recursion, dfs |
 
 
 
