@@ -47,8 +47,9 @@ class Solution:
 # After sorting, we compare each element to the next until we traverse the entire nums array, or we find the duplicate
 
 # Complexity:
-# Time O(n) + Sorting time. O(n logn)
-# Space 
+# Time Sorting + Comparison time.  O(n + n logn) = O(n logn). n logn for quick sort or merge sort
+# Space O(1), if in place sorting is used
+
 
 # Optimized 2
 
@@ -58,6 +59,9 @@ class Solution:
 # Approach:
 # While building the hashmap, if the next character is found out to already present in the hashmap, we know its a duplicate
 
+# Complexity:
+# Time O(n), because we traverse the array once to build the hashmap
+# Space O(n), because we always have to build the hashmap
 
 
 class Solution:
