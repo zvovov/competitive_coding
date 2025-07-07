@@ -1,5 +1,37 @@
 # https://leetcode.com/problems/valid-anagram/
 
+# Intuition:
+# To be able to make one string from another, i need to have the exact same number of characters in both.
+
+# Approach:
+# First, check if they are the same length. They need to be if they are an anagram.
+# Maintain a count of occurence of each character in a hashmap
+# After traversing the length of the string, if they hashmaps are identical, its an anagram
+
+# Complexity:
+# Time O(n)
+# Space O(n)
+
+class Solution:
+    def isAnagram(self, s: str, t: str) -> bool:
+        # check same length
+        if len(s) != len(t):
+            return False
+        else:
+            # define hashmap
+            hm_s = {}
+            hm_t = {}
+            # iterate over both strings, build hashmap
+            for i in range(len(s)):
+                hm_s[s[i]] = hm_s.get(s[i])+1 if hm_s.get(s[i]) != None else 1
+                hm_t[t[i]] = hm_t.get(t[i])+1 if hm_t.get(t[i]) != None else 1
+            if hm_s == hm_t:
+                return True
+            else:
+                return False
+
+
+
 class Solution:
     def isAnagram(self, s: str, t: str)  -> bool:
         # create hashmap for s
