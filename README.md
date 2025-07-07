@@ -5,7 +5,7 @@
 | # | Name | Difficulty | Comments |
 |---|---|---|---|
 | 1 | [Two Sum](leetcode/neetcode_150/two_sum.py) | E | bf, opt; hashmap |
-| 2 | [Contains Duplicate](leetcode/neetcode_150/contains_duplicate.py) | E | opt; hashmap |
+| 2 | [Contains Duplicate](leetcode/neetcode_150/contains_duplicate.py) | E | opt; sort; hashmap |
 | 3 | [Valid Anagram](leetcode/neetcode_150/valid_anagram.py) | E | opt; hashmap |
 
 ### Two Pointers
