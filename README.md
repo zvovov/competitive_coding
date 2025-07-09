@@ -7,7 +7,8 @@
 | 1 | [Two Sum](leetcode/neetcode_150/two_sum.py) | E | bf, opt; hashmap |
 | 2 | [Contains Duplicate](leetcode/neetcode_150/contains_duplicate.py) | E | opt; sort; hashmap |
 | 3 | [Valid Anagram](leetcode/neetcode_150/valid_anagram.py) | E | opt; hashmap |
-| 4 | [Group Anagrams](leetcode/neetcode_150/group_anagrams.py) | M | hashmap, sorting |
+| 4 | [Group Anagrams](leetcode/neetcode_150/group_anagrams.py) | M | hint; hashmap, sorting |
+| 5 | [Top K Frequent Elements](leetcode/neetcode_150/top_k_frequent_elements.py) | M | used Ordered dict, try heap |
 
 ### Two Pointers
 | # | Name | Difficulty | Comments |
