@@ -14,6 +14,7 @@
 | # | Name | Difficulty | Comments |
 |---|---|---|---|
 | 1 | [Valid Palindrome](leetcode/neetcode_150/valid_palindrome.py) | E |  |
+| 2 | [Two Sum II](leetcode/neetcode_150/two_sum_2.py) | M | sorted array, O(1) space |
 
 
 ### Sliding Window
