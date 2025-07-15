@@ -46,5 +46,10 @@
 | 1 | [Balanced Binary Tree](leetcode/neetcode_150/balanced_binary_tree.py) | E | recursion, dfs |
 | 1 | [Same Tree](leetcode/neetcode_150/same_tree.py) | E | recursion, dfs |
 
+### Heap
+| # | Name | Difficulty | Comments |
+|---|---|---|---|
+| 1 | [Last Stone Weight](leetcode/neetcode_150/last_stone_weight.py) | M | max heap simulation with negatives |
+
 
 
