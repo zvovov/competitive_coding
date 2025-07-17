@@ -9,6 +9,7 @@
 | 3 | [Valid Anagram](leetcode/neetcode_150/valid_anagram.py) | E | opt; hashmap |
 | 4 | [Group Anagrams](leetcode/neetcode_150/group_anagrams.py) | M | hint; hashmap, sorting |
 | 5 | [Top K Frequent Elements](leetcode/neetcode_150/top_k_frequent_elements.py) | M | used Ordered dict, try heap |
+| 6 | [Products of Array Excluding Self](leetcode/neetcode_150/products-of-array-discluding-self.py) | M | product calculation, zero handling edge cases |
 
 ### Two Pointers
 | # | Name | Difficulty | Comments |
